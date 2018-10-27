@@ -1,0 +1,46 @@
+{
+  "name": "simple_react_calc",
+  "version": "1.0.0",
+  "description": "Just a small calculator. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development"
+  },
+  "keywords": [
+    "react",
+    "calculator"
+  ],
+  "author": "Humble Saaber",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/preset-react": "^7.0.0",
+    "classnames": "^2.2.6",
+    "less": "^3.8.1",
+    "loadash": "^1.0.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "reactdom": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/node": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-es2016": "^7.0.0-beta.53",
+    "autoprefixer-loader": "^3.2.0",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-transform-es2015-modules-amd": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "file-loader": "^2.0.0",
+    "less-loader": "^4.1.0",
+    "postcss-loader": "^3.0.0",
+    "react-hot-loader": "^4.3.11",
+    "style-loader": "^0.23.1",
+    "ttf-loader": "^1.0.2",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  }
+}

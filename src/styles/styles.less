@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Digital-7';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/digital-7.ttf') format('truetype');
+}
+
+
+.calcBody {
+  display: grid;
+  grid-template-areas: 
+  'calcName calcName'
+  'display display'
+  'inptPanel lgcPanel';
+  grid-template-rows: 0,5fr 1fr 3fr;
+  grid-template-columns: 1fr 1fr;
+  width: 55vh;
+  height: 55vh;
+  margin: auto;
+  background-color: #062229;
+  border-radius: 2vh;
+ 
+}
+
+.calcName {
+    margin-top: 2vh;
+    margin-left: 2vh;
+    grid-area: calcName;
+}
+.companyName{
+ color: #FFF0F5;
+ font-size: 3vh;
+}
+
+.modelNum{
+ color: #FFF0F5;
+ font-size: 2vh;
+}
+
+.inputWindow {
+    font-family: 'Digital-7';
+    grid-area: display;
+    background-color: #A9A9A9;
+    color: black;
+    font-size: 7vh;
+    width: 50vh;
+    height: 6vh;
+    margin: auto;
+    border-radius: 1vh;
+}
+
+.inputPanel {
+    display: inline-flex;
+    flex-direction: column;
+    height: 30vh;
+    width: 30vh; 
+    flex-wrap: wrap;
+    align-content: space-around;
+    grid-area: inptPanel;
+    margin: auto;
+}
+
+.logicPanel {
+    display: inline-flex;
+    flex-direction: column;
+    height: 30vh;
+    width: 20vh; 
+    flex-wrap: wrap;
+    align-content: space-around;
+    grid-area: lgcPanel;
+    margin: auto;
+}
+
+.inputButton {
+    
+    margin: 0.5vh;
+    height: 5vh;
+    width: 7vh;
+    color: white;
+    background-color: grey;
+    border-radius: 1vh;
+    font-size: 2vh;
+    
+}
+
+.logicButton {
+    margin: 0.5vh;
+    height: 5vh;
+    width: 7vh;
+    color: white;
+    background-color: red;
+    border-radius: 1vh;
+    font-size: 2vh;
+}
+
+.memoryButton {
+    margin: 0.5vh;
+    height: 5vh;
+    width: 7vh;
+    color: white;
+    background-color: grey;
+    border-radius: 3vh;
+    font-size: 2vh;
+}
