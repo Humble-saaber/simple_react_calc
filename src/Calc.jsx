@@ -73,7 +73,7 @@ export default class Calc extends React.Component {
         }
         
     }
-        // This method use operations which require only currentInput value, sqrt for instance. 'Evaluate' is a special one - it sets evaluateOperation to null, also writes an answer to memoryCell.
+        // This method uses operations which require only currentInput value, sqrt for instance. 'Evaluate' is a special one - it sets evaluateOperation to null, also writes an answer to memoryCell.
 
     memorizedNumberController = (type) => (e) => {
       e.preventDefault();

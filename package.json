@@ -14,13 +14,11 @@
   "author": "Humble Saaber",
   "license": "ISC",
   "dependencies": {
-    "@babel/preset-react": "^7.0.0",
     "classnames": "^2.2.6",
     "less": "^3.8.1",
-    "loadash": "^1.0.0",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
-    "reactdom": "^2.0.0"
+    "round-to": "^3.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.2",
@@ -29,13 +27,13 @@
     "@babel/plugin-proposal-class-properties": "^7.1.0",
     "@babel/preset-env": "^7.1.0",
     "@babel/preset-es2016": "^7.0.0-beta.53",
+    "@babel/preset-react": "^7.0.0",
     "autoprefixer-loader": "^3.2.0",
     "babel-loader": "^8.0.4",
     "babel-plugin-transform-es2015-modules-amd": "^6.24.1",
     "css-loader": "^1.0.0",
     "file-loader": "^2.0.0",
     "less-loader": "^4.1.0",
-    "postcss-loader": "^3.0.0",
     "react-hot-loader": "^4.3.11",
     "style-loader": "^0.23.1",
     "ttf-loader": "^1.0.2",
